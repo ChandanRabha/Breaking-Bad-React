@@ -1,4 +1,4 @@
-# REACT APP MADE USING BREAKING BAD API
+# React App Made Using BREAKING BAD API
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
