@@ -104,3 +104,7 @@ select:hover{
  option:hover {
     box-shadow: 0 0 10px 100px rgb(199, 104, 104) inset;
 }
+.pagination{
+  flex-wrap: wrap;
+  justify-content: center;
+}
