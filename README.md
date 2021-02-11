@@ -13,7 +13,7 @@ This project was created using Create React App. Data is taken from BREAKING BAD
 
 =>Application was made only using Functional Components and React Hooks. 
 
-=>For Authentication Firebase is used. Note: To run the application in a local machine, the firebase api details need to be saved in the 'env' file in the root directory of the project.
+=>For Authentication Firebase is used. (Note): To run the application in a local machine, the firebase api details need to be saved in the 'env' file in the root directory of the project.
 
 => The Project utilises the Breaking Bad Api in two ways that is Character Wise and Episodic Wise.
 
