@@ -26,6 +26,8 @@ This project was created using Create React App. Data is taken from BREAKING BAD
 
 =>User Data is saved on localStorage of the Browser on successfull login.
 
+=>Validations have been added.
+
 
 # Design Details About the Project
 
