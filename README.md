@@ -3,8 +3,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 In the project directory, you can run:
 
-### `yarn start`
-
+To initialise all used packages
+### `yarn init` OR `npm init`
+To run
+### `yarn start` OR `npm start`
 This project was created using Create React App. Data is taken from BREAKING BAD API and Firebase is used for Authentication.
 
 # Key Points About the Project
