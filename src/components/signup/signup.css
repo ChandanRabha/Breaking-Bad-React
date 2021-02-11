@@ -11,9 +11,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
- 
-    
 }
+
+
+
+
 @font-face {
   font-family: Breaking_Bad;
   src: url(../../Breaking_Bad.otf);

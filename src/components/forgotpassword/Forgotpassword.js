@@ -28,8 +28,8 @@ export const Forgotpassword = () => {
     }
     return (
         <>
-                 <h1 class='headerText'>Breaking Bad API</h1>
-               <div class='card'>
+                 <h1 className='headerText'>Breaking Bad API</h1>
+               <div className='card'>
                <Card.Body>
                    <h2 className="text-center mb-4">Forgot Password</h2>
                    {error && <Alert variant='danger'>{error}</Alert>}

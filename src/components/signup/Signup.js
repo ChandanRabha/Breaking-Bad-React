@@ -44,8 +44,8 @@ export const Signup = () => {
     return (
         <>
           
-             <h1 class='headerText'>Breaking Bad API</h1>
-                <div class='card-signup'>
+             <h1 className='headerText'>Breaking Bad API</h1>
+                <div className='card-signup'>
                <Card.Body>
                    <h2 className="text-center mb-4">Sign Up</h2>
                    {error && <Alert variant='danger'>{error}</Alert>}

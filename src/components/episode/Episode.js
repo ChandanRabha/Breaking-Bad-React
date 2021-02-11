@@ -8,8 +8,8 @@ export const Episode = ({episode}) => {
                   <div><b>Season</b>:   {episode.season}</div> 
                   <div><b>Air Date</b>:  {episode.air_date}</div> 
               </div>
-               <div class='parent-characters'>
-                   <h5 class='character_title'>Characters</h5>
+               <div className='parent-characters'>
+                   <h5 className='character_title'>Characters</h5>
                   <div className='per-episode-characters'>       
                     {
                                 episode.characters.map((character,index)=><h5 key={index}>{character}</h5>)

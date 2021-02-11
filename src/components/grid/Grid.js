@@ -7,6 +7,7 @@ import {Pagination2} from '../Pagination2'
 import {CharacterGrid} from '../character-grid/Character-grid'
 import {EpisodeGrid} from '../episode-grid/Episode-grid'
 
+import './grid.css'
 
 export const Grid = ({characters ,episodes,filter}) => {
 
@@ -56,7 +57,7 @@ export const Grid = ({characters ,episodes,filter}) => {
     // else the Episode wise component should be rendered
     if(filter==='1')
               return ( 
-                <div>
+                <div className='parent-container'>
                    <Pagination 
                           elementsPerPage={elementsPerPage}
                           totalElements={characters.length}
@@ -67,7 +68,7 @@ export const Grid = ({characters ,episodes,filter}) => {
                       )
     else {    
         return (
-              <div>
+              <div className='parent-container'>
                  <Pagination2 
                           elementsPerPage={elementsPerPage}
                           totalElements={episodes.length}

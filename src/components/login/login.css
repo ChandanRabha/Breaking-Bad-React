@@ -34,3 +34,9 @@ a{
 a:hover{
     color: #3fb573;
 }
+
+@media only screen and(max-width:500px){
+.card-body{
+      margin: -10px;
+}
+}

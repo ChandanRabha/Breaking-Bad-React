@@ -1,5 +1,4 @@
 
-
 .card {
   cursor: pointer;
   background-color: transparent;
@@ -19,16 +18,18 @@
   height: 300px;
   object-fit: cover;
   position: relative;
+  border: 2px solid #29332900;
 }
 .card-text{
-  position: absolute;
-  bottom:-3px;
-  width:100%;
-  color:white;
-  text-align: center;
-  font-family: var(--font);
-  font-size:1.5rem;
-  background-color: #173911;
+    position: absolute;
+    bottom: 3px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: var(--font);
+    font-size: 1.5rem;
+    background-color: #173911a8;
+    border-radius: 4px;
 }
 .card-inner {
   position: relative;

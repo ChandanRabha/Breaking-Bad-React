@@ -1,0 +1,10 @@
+.parent-container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+@media only screen and (max-width:700px){
+.parent-container
+    {
+    flex-direction: column;
+    }
+}
