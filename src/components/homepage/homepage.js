@@ -74,14 +74,16 @@ export const Homepage=()=> {
             {/* An onchange method is given where the current selected value is passed to the filter state variable. */}
             {/* The filter state variable is created and utilised so as to make the dom update on the changes when we switch from characters view to episodes view and vice versa */}
             <select onChange={(e)=>funFilter(e.target.value)} value={filter}><option value='1'>Characters</option><option value='2'>Episodes</option></select>
-             <h5 style={{color:'white'}}>Welcome, <i class="fas fa-user"></i> {currentUser.email}</h5>
-            <button className='btnLogout' onClick={handleLogout}>Logout <i class="fas fa-sign-out-alt"></i></button>
+            <div className='secondary-controls'>
+             <h5 style={{color:'white'}}><i className="fas fa-user"></i> {currentUser.email}</h5>
+            <button className='btnLogout' onClick={handleLogout}>Logout <i className="fas fa-sign-out-alt"></i></button>
+            </div>
         </div>
       </div>
       {/* In the Grid component we pass the characters and episodes state variables which was retrieved from the Breaking Bad API. */}
          {/* The filter state variable value is also passed so that the DOM gets the trigger that the component needs to be re-rendered*/}
       <Grid  characters={filterCharacter}   episodes={filterEpisode}   filter={filter}  />
 
-    </div> : <div class='loader'>Loading <img src={reload} alt='loader'></img></div>
+    </div> : <div className='loader'>Loading <img src={reload} alt='loader'></img></div>
   );
 }

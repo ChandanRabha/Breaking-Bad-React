@@ -15,9 +15,14 @@ body {
   /* background: #000 url('img/bg.jpg') no-repeat center center/cover; */
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
-  
-  background: linear-gradient( 45deg, #020402, #2725257d);
+  /* background: linear-gradient( 45deg, #020402, #2725257d); */
+ 
 }
+
+@media only screen and (min-width:500px){
+ body{ background: linear-gradient( 45deg, #020402, #272525f0);}
+}
+
 
 a {
   text-decoration: none;
@@ -92,6 +97,7 @@ select{
     background: #00000033;
     padding: 10px;
     transition: all 0.5s;
+    flex: 1;
 }
 option{
      color: white;
@@ -113,7 +119,7 @@ select:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0% 2% 0 2%;
+    margin: 2%;
 }
 .btnLogout{
     padding: 4px;
@@ -131,6 +137,7 @@ select:hover{
 }
 
 h5{
+  font-size: 1rem;
   text-align: center;
 }
 .form-control{
@@ -152,13 +159,27 @@ h5{
   width:100px;
   height:100px;
 }
+.secondary-controls{
+      display: flex;
+    align-items: center;
+    grid-gap: 1vw;
+        padding: 13px;
+}
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:700px){
+  body{
+    background: #353333 !important;
+  }
+}
+
+
+
+@media only screen and (max-width:600px){
   .controls {
    /* flex-wrap: wrap; */
    grid-gap:1.4vw;
    flex-wrap: wrap;
-    flex-flow: wrap-reverse;
+       flex-flow: column-reverse;
     margin: 3%;
   }
   .controls > h5{

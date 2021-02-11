@@ -36,10 +36,10 @@ export const Forgotpassword = () => {
                    {message && <Alert variant='warning'>{message}</Alert>}
                    <Form onSubmit={handleSubmit} >
                        <Form.Group id="email">
-                           <Form.Label>Email <i class="fas fa-envelope"></i></Form.Label>
+                           <Form.Label>Email <i className="fas fa-envelope"></i></Form.Label>
                            <Form.Control type='email' placeholder='Enter Recovery Email' ref={emailRef} required/>
                        </Form.Group>
-                       <Button disabled={loading} type='submit' className="w-100">Reset Password <i class="fas fa-unlock"></i> </Button>
+                       <Button disabled={loading} type='submit' className="w-100">Reset Password <i className="fas fa-unlock"></i> </Button>
 
                    </Form>
                     <div className="w-100 text-center mt-3">

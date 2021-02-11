@@ -45,24 +45,24 @@ export const Login = () => {
                <h1 className='headerText'>Breaking Bad API</h1>
                <div className='card'>
                <Card.Body>
-                   <h2 className="text-center mb-4">Log In <i class="fas fa-user"></i></h2>
+                   <h2 className="text-center mb-4">Log In <i className="fas fa-user"></i></h2>
                    {error && <Alert variant='danger'>{error}</Alert>}
                    <Form onSubmit={handleSubmit} >
                        <Form.Group id="email">
-                           <Form.Label>Email <i class="fas fa-envelope"></i></Form.Label>
+                           <Form.Label>Email <i className="fas fa-envelope"></i></Form.Label>
                            <Form.Control type='email' placeholder='Enter Email' ref={emailRef} required/>
                        </Form.Group>
                         <Form.Group id="password">
-                           <Form.Label>Password <i class="fas fa-key"></i></Form.Label>
+                           <Form.Label>Password <i className="fas fa-key"></i></Form.Label>
                            <Form.Control type='password' placeholder='Enter Password' ref={passwordRef} required/>
                        </Form.Group>
-                       <Button disabled={loading} type='submit' className="w-100">Log In <i class="fas fa-sign-in-alt"></i></Button>
+                       <Button disabled={loading} type='submit' className="w-100">Log In <i className="fas fa-sign-in-alt"></i></Button>
                    </Form>
                     <div className="w-100 text-center mt-3 " style={{color:'white'}}>
                         <Link to='/forgotpassword'>Forgot Password ?</Link>
                        </div> 
                    <div className="w-100 text-center mt-2">
-              Need An Account? <Link to='/signup'>Sign Up <i class="fas fa-user-plus"></i></Link>
+              Need An Account? <Link to='/signup'>Sign Up <i className="fas fa-user-plus"></i></Link>
                   </div> 
                     </Card.Body>            
                </div>
