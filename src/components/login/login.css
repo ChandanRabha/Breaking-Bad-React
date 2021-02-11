@@ -1,0 +1,36 @@
+.card-body{
+        width: 96%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: #333333 !important;
+    color: white;
+    border: 1px solid #008000ad;
+    
+}
+.card{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+@font-face {
+  font-family: Breaking_Bad;
+  src: url(../../Breaking_Bad.otf);
+}
+:root{
+  --font:Breaking_Bad;
+}
+.headerText{
+  font-family: var(--font);
+  color:white;
+  text-align:center;
+  font-size:5rem;
+}
+a{
+    color: #3fb573;
+}
+a:hover{
+    color: #3fb573;
+}

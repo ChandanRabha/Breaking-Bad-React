@@ -1,0 +1,33 @@
+.card-body{
+        width: 96%;
+    max-width: 500px;
+    background-color: #ffffffc9 !important;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+.card-signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    
+}
+@font-face {
+  font-family: Breaking_Bad;
+  src: url(../../Breaking_Bad.otf);
+}
+:root{
+  --font:Breaking_Bad;
+}
+.headerText{
+  font-family: var(--font);
+  color:white;
+  text-align:center;
+  font-size:5rem;
+}
+button[type=submit]:hover{
+  color: #3fb573;
+  background-color: black !important;
+}
