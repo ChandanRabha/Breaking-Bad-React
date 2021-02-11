@@ -1,15 +1,9 @@
-# React App Made Using BREAKING BAD API
+# React App Made Using BREAKING BAD API with FIREBASE as AUTHENTICATION SYSTEM
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
 In the project directory, you can run:
 
 ### `yarn start`
-
-Runs the app in the development mode.\
-# React App Made Using BREAKING BAD API with FIREBASE as AUTHENTICATION SYSTEM
 
 This project was created using Create React App. Data is taken from BREAKING BAD API and Firebase is used for Authentication.
 
