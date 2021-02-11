@@ -1,13 +1,15 @@
 # React App Made Using BREAKING BAD API with FIREBASE as authenticatation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-In the project directory, you can run:
 
+### `**remove homepage line from package.json before initialising app**`
+
+In the project directory, you can run:
 To initialise all used packages
 ### `yarn init` OR `npm init`
 To run
 ### `yarn start` OR `npm start`
-### `remove homepage line from package.json before initialising app`
+
 This project was created using Create React App. Data is taken from BREAKING BAD API and Firebase is used for Authentication.
 
 # Key Points About the Project
