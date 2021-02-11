@@ -1,4 +1,4 @@
-# React App Made Using BREAKING BAD API with FIREBASE as AUTHENTICATION SYSTEM
+# React App Made Using BREAKING BAD API with FIREBASE as authenticatation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 In the project directory, you can run:
