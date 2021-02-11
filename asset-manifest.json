@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Breaking-Bad-React/static/css/main.342a999f.chunk.css",
-    "main.js": "/Breaking-Bad-React/static/js/main.b3215de5.chunk.js",
-    "main.js.map": "/Breaking-Bad-React/static/js/main.b3215de5.chunk.js.map",
+    "main.css": "/Breaking-Bad-React/static/css/main.1a01042d.chunk.css",
+    "main.js": "/Breaking-Bad-React/static/js/main.1e7b6a23.chunk.js",
+    "main.js.map": "/Breaking-Bad-React/static/js/main.1e7b6a23.chunk.js.map",
     "runtime-main.js": "/Breaking-Bad-React/static/js/runtime-main.f4a53dcc.js",
     "runtime-main.js.map": "/Breaking-Bad-React/static/js/runtime-main.f4a53dcc.js.map",
     "static/js/2.b831702e.chunk.js": "/Breaking-Bad-React/static/js/2.b831702e.chunk.js",
     "static/js/2.b831702e.chunk.js.map": "/Breaking-Bad-React/static/js/2.b831702e.chunk.js.map",
     "index.html": "/Breaking-Bad-React/index.html",
-    "static/css/main.342a999f.chunk.css.map": "/Breaking-Bad-React/static/css/main.342a999f.chunk.css.map",
+    "static/css/main.1a01042d.chunk.css.map": "/Breaking-Bad-React/static/css/main.1a01042d.chunk.css.map",
     "static/js/2.b831702e.chunk.js.LICENSE.txt": "/Breaking-Bad-React/static/js/2.b831702e.chunk.js.LICENSE.txt",
     "static/media/login.css": "/Breaking-Bad-React/static/media/Breaking_Bad.3513760c.otf",
     "static/media/reload.62697e08.svg": "/Breaking-Bad-React/static/media/reload.62697e08.svg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.f4a53dcc.js",
     "static/js/2.b831702e.chunk.js",
-    "static/css/main.342a999f.chunk.css",
-    "static/js/main.b3215de5.chunk.js"
+    "static/css/main.1a01042d.chunk.css",
+    "static/js/main.1e7b6a23.chunk.js"
   ]
 }
