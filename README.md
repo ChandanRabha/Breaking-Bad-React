@@ -1,70 +1,37 @@
-# React App Made Using BREAKING BAD API
+# React App Made Using BREAKING BAD API with FIREBASE as authentication
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### `**remove homepage line from package.json before initialising app**`
 
 In the project directory, you can run:
+To initialise all used packages
+### `yarn init` OR `npm init`
+To run
+### `yarn start` OR `npm start`
 
-### `yarn start`
+This project was created using Create React App. Data is taken from BREAKING BAD API and Firebase is used for Authentication.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Key Points About the Project
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+=>Application was made only using Functional Components and React Hooks. 
 
-### `yarn test`
+=>For Authentication Firebase is used. (Note): To run the application in a local machine, the firebase api details need to be saved in the 'env' file in the root directory of the project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+=> The Project utilises the Breaking Bad Api in two ways that is Character Wise and Episodic Wise.
 
-### `yarn build`
+=> Pagination has been added for both types of views of data for easy accessibility.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+=>Login, Register and Forgot Password System is integrated
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+=>User Data is saved on localStorage of the Browser on successfull login.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+# Design Details About the Project
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+=>The data of both character wise and episode wise is loaded on the first load of the application.This was done so that data will not be fetched again and again as different views are rendered. A useEffect hook executes for the first time where the data are fetched and stored in state variables.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+=>A main grid component takes the contents of both character wise and episode wise data where based on the users selection of which view to render that specific component is rendered at a time.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+=>Responsive layout is added for accessibily in smaller devices.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

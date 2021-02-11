@@ -24,7 +24,7 @@ export const Homepage=()=> {
   const  [filter,funFilter]=useState('1')
 
 
-  const [error,setError]=useState('')
+
   const {currentUser,logout}=useAuth()
   const history=useHistory()
 
@@ -34,14 +34,14 @@ export const Homepage=()=> {
 
   
    const handleLogout= async()=>{
-        setError('')
+     
         try{
             await logout()
              localStorage.removeItem('email')
             history.push('/login')
         }
          catch(e){
-             setError(e.message)
+             alert(e.message)
          }
     }
   

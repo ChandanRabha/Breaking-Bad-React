@@ -9,8 +9,6 @@ import {AuthProvider} from './components/contexts/AuthContext'
 import {BrowserRouter as Router,Switch,Route,HashRouter} from 'react-router-dom'
 
 function App() {
-  const relative_path=window.location.pathname
-  console.log(relative_path)
   return (
     //here the AuthProvider encloses the entire components inside which  can be accessed/passed from the childrens attribute. Checking the AuthContext file gives better understanding
            <Router> 
