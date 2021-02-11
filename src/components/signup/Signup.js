@@ -51,22 +51,22 @@ export const Signup = () => {
                    {error && <Alert variant='danger'>{error}</Alert>}
                    <Form onSubmit={handleSubmit} >
                        <Form.Group id="email">
-                           <Form.Label>Email</Form.Label>
+                           <Form.Label>Email <i class="fas fa-envelope"></i></Form.Label>
                            <Form.Control type='email' placeholder='Enter Email' ref={emailRef} required/>
                        </Form.Group>
                         <Form.Group id="password">
-                           <Form.Label>Password</Form.Label>
+                           <Form.Label>Password <i class="fas fa-key"></i></Form.Label>
                            <Form.Control type='password' placeholder='Enter Password' ref={passwordRef} required/>
                        </Form.Group>
                         <Form.Group id="password-confirm">
                            <Form.Label>Confirm Password</Form.Label>
                            <Form.Control type='password' placeholder='Confirm Password' ref={passwordConfirmRef} required/>
                        </Form.Group>
-                       <Button disabled={loading} type='submit' className="w-100">Sign Up</Button>
+                       <Button disabled={loading} type='submit' className="w-100">Sign Up <i class="fas fa-user-plus"></i></Button>
                    </Form>
                    
                      <div className="w-100 text-center mt-2">
-                        Already Have An Account?<Link to='/login'>Log In</Link> 
+                        Already Have An Account?<Link to='/login'> Log In</Link> 
                      </div>
                </Card.Body>
             </div> 
