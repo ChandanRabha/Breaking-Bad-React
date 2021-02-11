@@ -75,7 +75,7 @@ export const Homepage=()=> {
             {/* The filter state variable is created and utilised so as to make the dom update on the changes when we switch from characters view to episodes view and vice versa */}
             <select onChange={(e)=>funFilter(e.target.value)} value={filter}><option value='1'>Characters</option><option value='2'>Episodes</option></select>
              <h5 style={{color:'white'}}>Welcome, {currentUser.email}</h5>
-            <button className='btnLogout' onClick={handleLogout}>Log Out</button>
+            <button className='btnLogout' onClick={handleLogout}>Logout <i class="fas fa-sign-out-alt"></i></button>
         </div>
       </div>
       {/* In the Grid component we pass the characters and episodes state variables which was retrieved from the Breaking Bad API. */}
