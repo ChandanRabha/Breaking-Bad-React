@@ -7,6 +7,7 @@ To initialise all used packages
 ### `yarn init` OR `npm init`
 To run
 ### `yarn start` OR `npm start`
+### `remove hompage data from package.json before initialising app`
 This project was created using Create React App. Data is taken from BREAKING BAD API and Firebase is used for Authentication.
 
 # Key Points About the Project
